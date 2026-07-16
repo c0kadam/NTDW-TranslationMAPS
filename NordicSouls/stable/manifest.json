@@ -2,7 +2,7 @@
   "schema_version": "mtt-wizard-manifest.v2",
   "manifest_id": "nordicsouls-tr-stable",
   "created_at": "2026-07-16T21:41:43.973594+00:00",
-  "release_state": "DRAFT",
+  "release_state": "STABLE",
   "tool": {
     "name": "modlist-translate-tool",
     "version": "0.1.0"
@@ -112078,24 +112078,6 @@
     }
   ],
   "resources": {
-    "local_dsd_sources": [
-      {
-        "type": "absolute",
-        "path": "C:\\workBench\\SSAT-New Version Port\\SSAT-3.1.0\\SSE-AT Output",
-        "reason": "mtt_conversion_local_dsd_source",
-        "satisfies_artifact_sources": [
-          "CURATED_DOWNLOAD_LIST"
-        ]
-      },
-      {
-        "type": "absolute",
-        "path": "C:\\workBench\\SSAT-New Version Port\\SSAT-3.1.0\\data\\user\\database\\turkish",
-        "reason": "mtt_conversion_local_dsd_source",
-        "satisfies_artifact_sources": [
-          "CURATED_DOWNLOAD_LIST"
-        ]
-      }
-    ],
     "profile_translation_memory_alias_targets": [
       {
         "plugin": "Bandit War - Tamrielic Distribution.esp",
@@ -112140,13 +112122,6 @@
       {
         "plugin": "Grimoire.esp",
         "reason": "mtt_conversion_profile_translation_memory_alias"
-      }
-    ],
-    "download_cache_roots": [
-      {
-        "type": "absolute",
-        "path": "C:\\workBench\\modlist-translate-tool-downloads",
-        "reason": "mtt_download_cache_root"
       }
     ]
   }
