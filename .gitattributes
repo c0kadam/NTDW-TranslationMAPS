@@ -1,0 +1,3 @@
+# OTA checksums are calculated before commit; preserve artifact bytes exactly.
+*.json -text
+*.sha256 -text
