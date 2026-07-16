@@ -1,1 +1,11 @@
-
+{
+  "schema_version": "mtw-remote-manifest-index.v1",
+  "list_id": "nordicsouls",
+  "channel": "stable",
+  "manifest": {
+    "version": "local-profile-snapshot-2026-07-16",
+    "url": "https://raw.githubusercontent.com/c0kadam/NTDW-TranslationMAPS/main/NordicSouls/stable/manifest.json",
+    "sha256": "870213224700887947c5ac9a74011cc395756a48c0580f554aee8376a4ea9bae",
+    "min_app_version": "0.1.0"
+  }
+}
