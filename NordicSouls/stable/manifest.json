@@ -1,8 +1,8 @@
 {
   "schema_version": "mtt-wizard-manifest.v2",
   "manifest_id": "nordicsouls-tr-stable",
-  "created_at": "2026-07-16T02:27:51.285262+00:00",
-  "release_state": "STABLE",
+  "created_at": "2026-07-16T21:41:43.973594+00:00",
+  "release_state": "DRAFT",
   "tool": {
     "name": "modlist-translate-tool",
     "version": "0.1.0"
@@ -47,11 +47,11 @@
     "translation_decisions_schema": "translation-decisions.v1",
     "curated_download_list": "sseat_download_list.json",
     "input_sha256": {
-      "profile_scan.json": "e0e93c142ead9ed67dfe5830af159b29f4aebba5a354f9822e3fec43243825fc",
-      "translation_decisions.json": "e5392eb3d704cbe12e1f80c3f8c410743f8110f9fe429298be7d2f0db0141133",
+      "profile_scan.json": "423244d91fae9c81fd8ac08e531414b6a59672efa465243a1d6f3456483332c2",
+      "translation_decisions.json": "a9e21990ab87d1aa12372012cf5e23d512e4c3b8ad16927608f56499ae55f1f3",
       "sseat_download_list.json": "81c75d8e5246a4e2cdceb40d6176e914fb367a993bb699861a43ae5f97bba35b",
       "archive_inspection.json": "606f628537cc320009b8ccfa27125237a823aaf9ee1387e28a8c93f47cd745e2",
-      "sseat_dsd_conversion_manifest.json": "e3fc9a492d7e78cc02508f11d57185f513e5238f08b0b5a6b9b94faf413ce4bf",
+      "sseat_dsd_conversion_manifest.json": "15a20d4ff3c63bc018ddc21bd642899a5fb2aff11413132d7682c61dcf725faf",
       "native_binary_assets.tr.json": "a2e9afcdc4d4e9d64f480bb10660f2863728f2e720f68f555d99cf8213123d30"
     }
   },
@@ -112078,6 +112078,24 @@
     }
   ],
   "resources": {
+    "local_dsd_sources": [
+      {
+        "type": "absolute",
+        "path": "C:\\workBench\\SSAT-New Version Port\\SSAT-3.1.0\\SSE-AT Output",
+        "reason": "mtt_conversion_local_dsd_source",
+        "satisfies_artifact_sources": [
+          "CURATED_DOWNLOAD_LIST"
+        ]
+      },
+      {
+        "type": "absolute",
+        "path": "C:\\workBench\\SSAT-New Version Port\\SSAT-3.1.0\\data\\user\\database\\turkish",
+        "reason": "mtt_conversion_local_dsd_source",
+        "satisfies_artifact_sources": [
+          "CURATED_DOWNLOAD_LIST"
+        ]
+      }
+    ],
     "profile_translation_memory_alias_targets": [
       {
         "plugin": "Bandit War - Tamrielic Distribution.esp",
@@ -112122,6 +112140,13 @@
       {
         "plugin": "Grimoire.esp",
         "reason": "mtt_conversion_profile_translation_memory_alias"
+      }
+    ],
+    "download_cache_roots": [
+      {
+        "type": "absolute",
+        "path": "C:\\workBench\\modlist-translate-tool-downloads",
+        "reason": "mtt_download_cache_root"
       }
     ]
   }
