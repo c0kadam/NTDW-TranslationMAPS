@@ -2,7 +2,7 @@
   "schema_version": "mtw-remote-manifest-index.v1",
   "list_id": "nordicsouls",
   "remote_list_id": "NordicSouls",
-  "generated_at": "2026-07-18T12:32:22.929145+00:00",
+  "generated_at": "2026-07-18T12:57:00.274812+00:00",
   "manifests": [
     {
       "channel": "extended",
@@ -13,9 +13,9 @@
     },
     {
       "channel": "stable",
-      "version": "local-profile-snapshot-2026-07-18",
+      "version": "Çeviri Haritası Profili-ENB-2026-07-18",
       "url": "https://raw.githubusercontent.com/c0kadam/NTDW-TranslationMAPS/main/NordicSouls/stable/manifest.json",
-      "sha256": "23b98f92ef030976d1d827b1a00fb757550438f16830648cd840728c81811113",
+      "sha256": "1e229092cd9739fdf35843e5cbd7c00d4713aebea771830f45355b8a90882d68",
       "min_app_version": "0.1.0"
     }
   ]
