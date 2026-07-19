@@ -1,0 +1,15 @@
+{
+  "schema_version": "mtw-remote-manifest-index.v1",
+  "list_id": "lorerim",
+  "remote_list_id": "Lorerim",
+  "generated_at": "2026-07-19T12:34:14.399131+00:00",
+  "manifests": [
+    {
+      "channel": "stable",
+      "version": "local-profile-snapshot-2026-07-08",
+      "url": "https://raw.githubusercontent.com/c0kadam/NTDW-TranslationMAPS/main/Lorerim/stable/manifest.json",
+      "sha256": "0109b59b9dfd77fbe5174a93f3785e5bc4f29e795d312b25bd5fd85aaca7b55f",
+      "min_app_version": "0.1.0"
+    }
+  ]
+}
