@@ -2,20 +2,20 @@
   "schema_version": "mtw-remote-manifest-index.v1",
   "list_id": "nordicsouls",
   "remote_list_id": "NordicSouls",
-  "generated_at": "2026-07-18T12:57:00.274812+00:00",
+  "generated_at": "2026-07-20T00:18:31.473725+00:00",
   "manifests": [
     {
       "channel": "extended",
-      "version": "local-profile-snapshot-2026-07-18",
+      "version": "local-profile-snapshot-2026-07-20",
       "url": "https://raw.githubusercontent.com/c0kadam/NTDW-TranslationMAPS/main/NordicSouls/extended/manifest.json",
-      "sha256": "a2317772bbd82d93c955c7a2fa3c4461a905810677b7a9e64fea89d4d5349d54",
+      "sha256": "9ac44a4b6ab3a7882c806f577f2765942aa6952a702d0be246d2b460b27b9fcc",
       "min_app_version": "0.1.0"
     },
     {
       "channel": "stable",
-      "version": "Çeviri Haritası Profili-ENB-2026-07-18",
+      "version": "NordicSouls ENB-2026-07-20",
       "url": "https://raw.githubusercontent.com/c0kadam/NTDW-TranslationMAPS/main/NordicSouls/stable/manifest.json",
-      "sha256": "1e229092cd9739fdf35843e5cbd7c00d4713aebea771830f45355b8a90882d68",
+      "sha256": "abf0fa7e7fb54bae4261cf2af63f5b31bbba992ed6f1516808fa858e130b397e",
       "min_app_version": "0.1.0"
     }
   ]
