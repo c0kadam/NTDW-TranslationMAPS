@@ -1,0 +1,22 @@
+{
+  "schema_version": "mtw-remote-manifest-index.v1",
+  "list_id": "nordicsouls",
+  "remote_list_id": "NordicSouls",
+  "generated_at": "2026-07-20T01:27:30.853238+00:00",
+  "manifests": [
+    {
+      "channel": "extended",
+      "version": "local-profile-snapshot-2026-07-20",
+      "url": "https://raw.githubusercontent.com/c0kadam/NTDW-TranslationMAPS/main/NordicSouls/extended/manifest.json",
+      "sha256": "9ac44a4b6ab3a7882c806f577f2765942aa6952a702d0be246d2b460b27b9fcc",
+      "min_app_version": "0.1.0"
+    },
+    {
+      "channel": "stable",
+      "version": "NordicSouls ENB-2026-07-20",
+      "url": "https://raw.githubusercontent.com/c0kadam/NTDW-TranslationMAPS/main/NordicSouls/stable/manifest.json",
+      "sha256": "25c3dfc0752ab9f12ed8b06fd80eb631e4db26723663f2e0dadeecc6814c26d1",
+      "min_app_version": "0.1.0"
+    }
+  ]
+}
