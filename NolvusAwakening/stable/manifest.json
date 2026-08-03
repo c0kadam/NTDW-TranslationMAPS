@@ -157773,13 +157773,6 @@
         "plugin": "ZimsImmersiveArtifacts_WACCF_Patch.esp",
         "reason": "mtt_conversion_profile_translation_memory_alias"
       }
-    ],
-    "download_cache_roots": [
-      {
-        "type": "absolute",
-        "path": "C:\\workBench\\modlist-translate-tool-downloads",
-        "reason": "mtt_download_cache_root"
-      }
     ]
   }
 }

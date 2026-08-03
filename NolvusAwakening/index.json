@@ -8,7 +8,7 @@
       "channel": "stable",
       "version": "local-profile-Nolvus Awakening-2026-08-03",
       "url": "https://raw.githubusercontent.com/c0kadam/NTDW-TranslationMAPS/main/NolvusAwakening/stable/manifest.json",
-      "sha256": "84ffd147333ae0b197c9ea39f3a1a6781e1241104b25fb594ec994277315afdb",
+      "sha256": "dd475bb620bd0685d8c3b5c2a9b5caa2c9bbc972e194fe2c8f360a3e30d41a3c",
       "min_app_version": "0.2.0"
     }
   ]
