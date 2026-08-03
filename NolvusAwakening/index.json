@@ -2,13 +2,13 @@
   "schema_version": "mtw-remote-manifest-index.v1",
   "list_id": "nolvus-awakening",
   "remote_list_id": "NolvusAwakening",
-  "generated_at": "2026-08-03T23:27:22.348886Z",
+  "generated_at": "2026-08-03T23:33:58.806217Z",
   "manifests": [
     {
       "channel": "stable",
       "version": "local-profile-Nolvus Awakening-2026-08-03",
       "url": "https://raw.githubusercontent.com/c0kadam/NTDW-TranslationMAPS/main/NolvusAwakening/stable/manifest.json",
-      "sha256": "15ed51ddd2aca57069aa411d864db80a00ad4c9e5d5f9352c2946de6b3e08b82",
+      "sha256": "0f8f39f3bef54ec924f7287f7f6c61cdcc6602d0ed5dfe63984469f7529b95b5",
       "min_app_version": "0.2.0"
     }
   ]

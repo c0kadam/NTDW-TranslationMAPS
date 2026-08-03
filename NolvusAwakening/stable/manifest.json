@@ -2,7 +2,7 @@
   "schema_version": "mtt-wizard-manifest.v2",
   "manifest_id": "nolvus-awakening-tr-stable",
   "created_at": "2026-08-03T16:13:43.871239+00:00",
-  "updated_at": "2026-08-03T23:27:22.008265Z",
+  "updated_at": "2026-08-03T23:33:58.463796Z",
   "release_state": "DRAFT",
   "tool": {
     "name": "modlist-translate-tool",
@@ -38382,9 +38382,8 @@
         "warnings": [
           "confirmed translation cache reused; deep Nexus scan skipped",
           "candidate base file id differs from the installed file id",
-          "translation version '2.8.9' does not match installed version '3.1.7'",
-          "translation version '2.8.9' appears older than installed version '3.1.7'",
-          "User selected Negatrm's Embers XD Turkish package from 187186/785076."
+          "User selected Negatrm's Embers XD Turkish package from 187186/785076.",
+          "Selected Negatrm Embers XD 3.2.6 package for installed Embers XD 3.1.7; curated by user."
         ]
       },
       "install": {
@@ -38460,9 +38459,8 @@
         "warnings": [
           "confirmed translation cache reused; deep Nexus scan skipped",
           "candidate base file id differs from the installed file id",
-          "translation version '2.8.9' does not match installed version '3.1.7'",
-          "translation version '2.8.9' appears older than installed version '3.1.7'",
-          "User selected Negatrm's Embers XD Turkish package from 187186/785076."
+          "User selected Negatrm's Embers XD Turkish package from 187186/785076.",
+          "Selected Negatrm Embers XD 3.2.6 package for installed Embers XD 3.1.7; curated by user."
         ]
       },
       "install": {
@@ -38540,9 +38538,8 @@
         "warnings": [
           "confirmed translation cache reused; deep Nexus scan skipped",
           "candidate base file id differs from the installed file id",
-          "translation version '2.8.9' does not match installed version '3.1.7'",
-          "translation version '2.8.9' appears older than installed version '3.1.7'",
-          "User selected Negatrm's Embers XD Turkish package from 187186/785076."
+          "User selected Negatrm's Embers XD Turkish package from 187186/785076.",
+          "Selected Negatrm Embers XD 3.2.6 package for installed Embers XD 3.1.7; curated by user."
         ]
       },
       "install": {
@@ -38618,9 +38615,8 @@
         "warnings": [
           "confirmed translation cache reused; deep Nexus scan skipped",
           "candidate base file id differs from the installed file id",
-          "translation version '2.8.9' does not match installed version '3.1.7'",
-          "translation version '2.8.9' appears older than installed version '3.1.7'",
-          "User selected Negatrm's Embers XD Turkish package from 187186/785076."
+          "User selected Negatrm's Embers XD Turkish package from 187186/785076.",
+          "Selected Negatrm Embers XD 3.2.6 package for installed Embers XD 3.1.7; curated by user."
         ]
       },
       "install": {
@@ -38698,9 +38694,8 @@
         "warnings": [
           "confirmed translation cache reused; deep Nexus scan skipped",
           "candidate base file id differs from the installed file id",
-          "translation version '2.8.9' does not match installed version '3.1.7'",
-          "translation version '2.8.9' appears older than installed version '3.1.7'",
-          "User selected Negatrm's Embers XD Turkish package from 187186/785076."
+          "User selected Negatrm's Embers XD Turkish package from 187186/785076.",
+          "Selected Negatrm Embers XD 3.2.6 package for installed Embers XD 3.1.7; curated by user."
         ]
       },
       "install": {
@@ -38779,9 +38774,9 @@
         ],
         "warnings": [
           "candidate linked by user-curated manual translation override",
-          "Selected translation version 3.1.7 to match the installed base version.",
           "confirmed translation cache reused; deep Nexus scan skipped",
-          "User selected Negatrm's Embers XD Turkish package from 187186/785076."
+          "User selected Negatrm's Embers XD Turkish package from 187186/785076.",
+          "Selected Negatrm Embers XD 3.2.6 package for installed Embers XD 3.1.7; curated by user."
         ]
       },
       "install": {
@@ -38862,9 +38857,9 @@
         ],
         "warnings": [
           "candidate linked by user-curated manual translation override",
-          "Selected translation version 3.1.7 to match the installed base version.",
           "confirmed translation cache reused; deep Nexus scan skipped",
-          "User selected Negatrm's Embers XD Turkish package from 187186/785076."
+          "User selected Negatrm's Embers XD Turkish package from 187186/785076.",
+          "Selected Negatrm Embers XD 3.2.6 package for installed Embers XD 3.1.7; curated by user."
         ]
       },
       "install": {
