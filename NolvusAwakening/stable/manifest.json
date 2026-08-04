@@ -2,7 +2,7 @@
   "schema_version": "mtt-wizard-manifest.v2",
   "manifest_id": "nolvus-awakening-tr-stable",
   "created_at": "2026-08-03T16:13:43.871239+00:00",
-  "updated_at": "2026-08-03T23:33:58.463796Z",
+  "updated_at": "2026-08-04T00:36:49Z",
   "release_state": "DRAFT",
   "tool": {
     "name": "modlist-translate-tool",
@@ -77432,59 +77432,34 @@
       "selection": {
         "status": "APPROVED",
         "confidence": "VERIFIED_CONVERTED",
-        "translation_name": "Legacy of the Dragonborn (6.10.1) - Turkish Translation",
+        "translation_name": "Legacy of the Dragonborn - 5.6.5 - Turkish Translation",
         "score": 100,
         "provenance": [
+          "CURATED_DOWNLOAD_LIST",
           "MTT",
           "MTT_CONVERSION"
         ],
         "reasons": [
+          "curated_selected_download",
           "translation_language_match",
           "base_mod_id_exact",
           "base_file_id_exact",
-          "version_mismatch",
+          "version_prefix_match",
+          "plugin_name_match",
+          "linked_translation_file_match",
+          "archive_filename_hint_match",
           "conversion_output_target_match"
         ],
         "warnings": [
-          "base identity inferred from Nexus metadata search; review before automated output",
+          "translation file version starts with installed base version",
           "translation file is not older than base mod update timestamp",
-          "confirmed translation cache reused; deep Nexus scan skipped",
-          "translation version '6.10.1' does not match installed version '1.0'",
-          "archive metadata did not match an active installed plugin"
+          "confirmed translation cache reused; deep Nexus scan skipped"
         ]
       },
       "install": {
         "mode": "DSD_CONVERT"
       },
       "artifacts": [
-        {
-          "artifact_id": "nexusmods:skyrimspecialedition:141289:755104",
-          "source": "MTT",
-          "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 141289,
-          "translation_file_id": 755104,
-          "translation_name": "Legacy of the Dragonborn (6.10.1) - Turkish Translation",
-          "translation_file_name": "Legacy of the Dragonborn - Turkish Translation-141289-6-10-1-1779473239.7z",
-          "translation_version": "6.10.1",
-          "uploaded_timestamp": 1779473239,
-          "expected_size": 6658856,
-          "expected_sha256": null,
-          "required": true,
-          "provides": [
-            "LegacyoftheDragonborn.esm"
-          ],
-          "evidence": [
-            "conversion_output_target_match",
-            "archive_inspection_target_match",
-            "candidate_archive_target_match"
-          ],
-          "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/141289?tab=files&file_id=755104",
-          "decision_status": "NEEDS_REVIEW",
-          "conversion_order": 535
-        }
-      ],
-      "alternatives": [
         {
           "artifact_id": "nexusmods:skyrimspecialedition:65971:418198",
           "source": "MTT",
@@ -77511,6 +77486,34 @@
           "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/65971?tab=files&file_id=418198",
           "decision_status": "APPROVED",
           "conversion_order": 135
+        }
+      ],
+      "alternatives": [
+        {
+          "artifact_id": "nexusmods:skyrimspecialedition:141289:755104",
+          "source": "MTT",
+          "game_domain": "skyrimspecialedition",
+          "translation_nexus_mod_id": 141289,
+          "translation_file_id": 755104,
+          "translation_name": "Legacy of the Dragonborn (6.10.1) - Turkish Translation",
+          "translation_file_name": "Legacy of the Dragonborn - Turkish Translation-141289-6-10-1-1779473239.7z",
+          "translation_version": "6.10.1",
+          "uploaded_timestamp": 1779473239,
+          "expected_size": 6658856,
+          "expected_sha256": null,
+          "required": true,
+          "provides": [
+            "LegacyoftheDragonborn.esm"
+          ],
+          "evidence": [
+            "conversion_output_target_match",
+            "archive_inspection_target_match",
+            "candidate_archive_target_match"
+          ],
+          "install_mode": "DSD_CONVERT",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/141289?tab=files&file_id=755104",
+          "decision_status": "NEEDS_REVIEW",
+          "conversion_order": 535
         }
       ]
     },
