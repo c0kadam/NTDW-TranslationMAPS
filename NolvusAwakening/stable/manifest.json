@@ -2,7 +2,7 @@
   "schema_version": "mtt-wizard-manifest.v2",
   "manifest_id": "nolvus-awakening-tr-stable",
   "created_at": "2026-08-03T16:13:43.871239+00:00",
-  "updated_at": "2026-08-05T02:19:17Z",
+  "updated_at": "2026-08-08T21:35:49Z",
   "release_state": "DRAFT",
   "tool": {
     "name": "modlist-translate-tool",
@@ -4445,62 +4445,58 @@
       },
       "selection": {
         "status": "APPROVED",
-        "confidence": "VERIFIED_CONVERTED",
-        "translation_name": "Additional Hearthfire Dolls - Turkish",
+        "confidence": "VERIFIED_CURATED",
+        "translation_name": "Negatrm'in Cevirileri",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST",
           "MTT",
-          "MTT_CONVERSION"
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download",
           "translation_language_match",
           "base_mod_id_exact",
           "version_exact",
           "plugin_name_match",
+          "plugin_content_exact_target_verified",
           "linked_translation_file_match",
           "archive_filename_hint_match",
-          "multiple_candidates",
-          "ambiguous_candidate",
-          "strong_metadata_match_selected_from_ambiguous_candidates",
-          "conversion_output_target_match"
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
-        "warnings": [
-          "translation file is not older than base mod update timestamp",
-          "confirmed translation cache reused; deep Nexus scan skipped",
-          "candidate base file id differs from the installed file id",
-          "multiple similar candidates were found; selected the strongest metadata match"
-        ]
+        "warnings": []
       },
       "install": {
         "mode": "DSD_CONVERT"
       },
       "artifacts": [
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:163738:684390",
-          "source": "MTT",
+          "artifact_id": "nexusmods:skyrimspecialedition:33900:595146",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 163738,
-          "translation_file_id": 684390,
-          "translation_name": "Additional Hearthfire Dolls - Turkish",
-          "translation_file_name": "Additional Hearthfire Dolls - Turkish Translation-163738-3-0-1762445376.zip",
+          "translation_nexus_mod_id": 33900,
+          "translation_file_id": 595146,
+          "translation_name": "Negatrm'in Cevirileri",
+          "translation_file_name": "74- Additional Hearthfire Dolls - Separate - Turk-33900-3-0-1739649774.7z",
           "translation_version": "3.0",
-          "uploaded_timestamp": 1762445376,
-          "expected_size": 47255,
+          "uploaded_timestamp": 1739649774,
+          "expected_size": 38377,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "AdditionalHearthfireDolls.esp"
           ],
           "evidence": [
-            "curated_selected_download",
-            "conversion_output_target_match",
             "archive_inspection_target_match",
-            "candidate_archive_target_match"
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/163738?tab=files&file_id=684390",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=595146",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=595146",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 210
         }
@@ -14728,70 +14724,58 @@
       },
       "selection": {
         "status": "APPROVED",
-        "confidence": "VERIFIED_CONVERTED",
-        "translation_name": "ColovianNobleClothes Turkce",
+        "confidence": "VERIFIED_CURATED",
+        "translation_name": "Colovian Noble Clothes - Turkish Translation",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST",
           "MTT",
-          "MTT_CONVERSION"
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download",
           "translation_language_match",
           "base_mod_id_exact",
-          "base_file_id_exact",
-          "version_mismatch",
+          "version_exact",
           "plugin_name_match",
           "plugin_content_exact_target_verified",
           "linked_translation_file_match",
-          "multiple_candidates",
-          "ambiguous_candidate",
-          "strong_metadata_match_selected_from_ambiguous_candidates",
-          "version_exact",
-          "plugin_name_unknown",
-          "conversion_output_target_match"
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
-        "warnings": [
-          "candidate discovered by user-enabled exact Nexus archive plugin-content search after normal translation sources returned no candidate",
-          "translation file is not older than base mod update timestamp",
-          "translation version '1.0' does not match installed version '1.43'",
-          "translation version '1.0' appears older than installed version '1.43'",
-          "multiple similar candidates were found; selected the strongest metadata match",
-          "base identity inferred from Nexus metadata search; review before automated output",
-          "confirmed translation cache reused; deep Nexus scan skipped"
-        ]
+        "warnings": []
       },
       "install": {
         "mode": "DSD_CONVERT"
       },
       "artifacts": [
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:156717:654948",
-          "source": "MTT",
+          "artifact_id": "nexusmods:skyrimspecialedition:27636:100398",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 156717,
-          "translation_file_id": 654948,
-          "translation_name": "ColovianNobleClothes Turkce",
-          "translation_file_name": "ColovianNobleClothes Turkce-156717-1-0-1754988067.7z",
+          "translation_nexus_mod_id": 27636,
+          "translation_file_id": 100398,
+          "translation_name": "Colovian Noble Clothes - Turkish Translation",
+          "translation_file_name": "Colovian Noble Clothes - Turkish Translation-27636-1-0-1563938127.rar",
           "translation_version": "1.0",
-          "uploaded_timestamp": 1754988067,
-          "expected_size": 1477,
+          "uploaded_timestamp": 1563938127,
+          "expected_size": 1503,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "ColovianNobleClothes.esp"
           ],
           "evidence": [
-            "curated_selected_download",
-            "conversion_output_target_match",
             "archive_inspection_target_match",
-            "candidate_archive_target_match"
+            "candidate_archive_target_match",
+            "user_curated_preferred_author_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/156717?tab=files&file_id=654948",
-          "translation_author": "pulsadenura",
-          "translation_uploader": "pulsadenura",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/27636?tab=files&file_id=100398",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/27636?tab=files&file_id=100398",
+          "translation_author": "Mattdown",
+          "translation_uploader": "Mattdown",
           "decision_status": "APPROVED",
           "conversion_order": 295
         }

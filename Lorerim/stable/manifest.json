@@ -58,8 +58,8 @@
   "summary": {
     "target_count": 1897,
     "entry_count": 1897,
-    "artifact_reference_count": 2271,
-    "unique_download_count": 671,
+    "artifact_reference_count": 2267,
+    "unique_download_count": 667,
     "conflict_count": 258,
     "skipped": {
       "mtt_decision_without_verified_target": 3109,
@@ -1056,54 +1056,57 @@
       "selection": {
         "status": "APPROVED",
         "confidence": "VERIFIED_CURATED",
-        "translation_name": "Additional Hearthfire Dolls - Turkish",
+        "translation_name": "Negatrm'in Cevirileri",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST",
-          "MTT"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download",
           "translation_language_match",
           "base_mod_id_exact",
-          "base_file_id_exact",
-          "version_prefix_match",
+          "version_exact",
           "plugin_name_match",
+          "plugin_content_exact_target_verified",
           "linked_translation_file_match",
-          "archive_filename_hint_match"
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
-        "warnings": [
-          "translation file metadata recovered by targeted repair"
-        ]
+        "warnings": []
       },
       "install": {
         "mode": "DSD_CONVERT"
       },
       "artifacts": [
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:163738:684390",
-          "source": "MTT",
+          "artifact_id": "nexusmods:skyrimspecialedition:33900:595146",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 163738,
-          "translation_file_id": 684390,
-          "translation_name": "Additional Hearthfire Dolls - Turkish",
-          "translation_file_name": "Additional Hearthfire Dolls - Turkish Translation-163738-3-0-1762445376.zip",
+          "translation_nexus_mod_id": 33900,
+          "translation_file_id": 595146,
+          "translation_name": "Negatrm'in Cevirileri",
+          "translation_file_name": "74- Additional Hearthfire Dolls - Separate - Turk-33900-3-0-1739649774.7z",
           "translation_version": "3.0",
-          "uploaded_timestamp": 1762445376,
-          "expected_size": 47255,
+          "uploaded_timestamp": 1739649774,
+          "expected_size": 38377,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "AdditionalHearthfireDolls.esp"
           ],
           "evidence": [
-            "curated_selected_download",
-            "conversion_output_target_match",
             "archive_inspection_target_match",
-            "candidate_archive_target_match"
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/163738?tab=files&file_id=684390",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=595146",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=595146",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 380
         }
@@ -1126,54 +1129,57 @@
       "selection": {
         "status": "APPROVED",
         "confidence": "VERIFIED_CURATED",
-        "translation_name": "Additional Hearthfire Dolls - Turkish",
+        "translation_name": "Negatrm'in Cevirileri",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST",
-          "MTT"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download",
           "translation_language_match",
           "base_mod_id_exact",
-          "base_file_id_exact",
-          "version_prefix_match",
+          "version_exact",
           "plugin_name_match",
+          "plugin_content_exact_target_verified",
           "linked_translation_file_match",
-          "archive_filename_hint_match"
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
-        "warnings": [
-          "translation file metadata recovered by targeted repair"
-        ]
+        "warnings": []
       },
       "install": {
         "mode": "DSD_CONVERT"
       },
       "artifacts": [
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:163738:684390",
-          "source": "MTT",
+          "artifact_id": "nexusmods:skyrimspecialedition:33900:595146",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 163738,
-          "translation_file_id": 684390,
-          "translation_name": "Additional Hearthfire Dolls - Turkish",
-          "translation_file_name": "Additional Hearthfire Dolls - Turkish Translation-163738-3-0-1762445376.zip",
+          "translation_nexus_mod_id": 33900,
+          "translation_file_id": 595146,
+          "translation_name": "Negatrm'in Cevirileri",
+          "translation_file_name": "74- Additional Hearthfire Dolls - Separate - Turk-33900-3-0-1739649774.7z",
           "translation_version": "3.0",
-          "uploaded_timestamp": 1762445376,
-          "expected_size": 47255,
+          "uploaded_timestamp": 1739649774,
+          "expected_size": 38377,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "AdditionalHFDollsPassivesPatch.esp"
           ],
           "evidence": [
-            "curated_selected_download",
-            "conversion_output_target_match",
             "archive_inspection_target_match",
-            "candidate_archive_target_match"
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/163738?tab=files&file_id=684390",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=595146",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=595146",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 380
         }
@@ -6045,13 +6051,23 @@
       "selection": {
         "status": "APPROVED",
         "confidence": "VERIFIED_CURATED",
-        "translation_name": "Cloaks and Capes SMP - Turkish Translation",
+        "translation_name": "HDT-SMP for Cloaks and Capes Turkce Ceviri",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download"
+          "translation_language_match",
+          "base_mod_id_exact",
+          "version_exact",
+          "plugin_name_match",
+          "plugin_content_exact_target_verified",
+          "linked_translation_file_match",
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
         "warnings": []
       },
@@ -6059,28 +6075,6 @@
         "mode": "DSD_CONVERT"
       },
       "artifacts": [
-        {
-          "artifact_id": "nexusmods:skyrimspecialedition:165864:692933",
-          "source": "CURATED_DOWNLOAD_LIST",
-          "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 165864,
-          "translation_file_id": 692933,
-          "translation_name": "Cloaks and Capes SMP - Turkish Translation",
-          "translation_file_name": "Cloaks and Capes SMP - Turkish Translation-165864-1-1-1764513041.zip",
-          "translation_version": "1.1",
-          "uploaded_timestamp": 1764513041,
-          "expected_size": null,
-          "expected_sha256": null,
-          "required": true,
-          "provides": [
-            "Cloaks&Capes SMP.esp"
-          ],
-          "evidence": [
-            "curated_selected_download"
-          ],
-          "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/165864?tab=files&file_id=692933"
-        },
         {
           "artifact_id": "nexusmods:skyrimspecialedition:87666:371560",
           "source": "MTT",
@@ -6104,7 +6098,9 @@
           "install_mode": "DSD_CONVERT",
           "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/87666?tab=files&file_id=371560",
           "decision_status": "APPROVED",
-          "conversion_order": 366
+          "conversion_order": 366,
+          "translation_author": "GxHERO",
+          "translation_uploader": "GxHero"
         }
       ],
       "alternatives": []
@@ -9576,26 +9572,31 @@
           "conversion_order": 2
         },
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:152055:651671",
-          "source": "MTT",
+          "artifact_id": "nexusmods:skyrimspecialedition:187186:785076",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 152055,
-          "translation_file_id": 651671,
-          "translation_name": "Embers XD - Turkish (3.2.2)",
-          "translation_file_name": "Embers XD - Turkish Translation-152055-3-1-7-1753983621.zip",
-          "translation_version": "3.1.7",
-          "uploaded_timestamp": 1753983621,
-          "expected_size": 306308,
+          "translation_nexus_mod_id": 187186,
+          "translation_file_id": 785076,
+          "translation_name": "Embers XD - Turkish Translation",
+          "translation_file_name": "Embers XD - Turkish Translation 187186 3.2.6 2026-08-03T18-26Z miUDjFdtp.7z",
+          "translation_version": "3.2.6",
+          "uploaded_timestamp": 1785781619,
+          "expected_size": null,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "decision_text_alias"
           ],
           "evidence": [
-            "conversion_output_target_match"
+            "conversion_output_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "NATIVE_INSTALL",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/152055?tab=files&file_id=651671",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 9
         },
@@ -12111,30 +12112,27 @@
       },
       "selection": {
         "status": "APPROVED",
-        "confidence": "VERIFIED_CONVERTED",
-        "translation_name": "Embers XD - Turkish (3.2.2)",
+        "confidence": "VERIFIED_CURATED",
+        "translation_name": "Embers XD - Turkish Translation",
         "score": 100,
         "provenance": [
-          "MTT"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
           "translation_language_match",
           "base_mod_id_exact",
-          "base_file_id_missing",
           "same_major_minor",
-          "manual_override_preferred",
-          "version_mismatch",
           "plugin_name_match",
+          "plugin_content_exact_target_verified",
           "linked_translation_file_match",
-          "archive_filename_hint_match"
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
         "warnings": [
-          "translation file metadata recovered by targeted repair",
-          "candidate linked by user-curated manual translation override",
-          "Selected translation version 3.1.7 to match the installed base version.",
-          "archive metadata did not match an active installed plugin",
-          "translation version '3.1.7' does not match installed version '3.2.0.0'",
-          "translation version '3.1.7' appears older than installed version '3.2.0.0'"
+          "Selected Negatrm Embers XD 3.2.6 for installed Embers XD 3.2.0; same translation targets and archive coverage were verified."
         ]
       },
       "install": {
@@ -12142,26 +12140,32 @@
       },
       "artifacts": [
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:152055:651671",
-          "source": "MTT",
+          "artifact_id": "nexusmods:skyrimspecialedition:187186:785076",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 152055,
-          "translation_file_id": 651671,
-          "translation_name": "Embers XD - Turkish (3.2.2)",
-          "translation_file_name": "Embers XD - Turkish Translation-152055-3-1-7-1753983621.zip",
-          "translation_version": "3.1.7",
-          "uploaded_timestamp": 1753983621,
-          "expected_size": 306308,
+          "translation_nexus_mod_id": 187186,
+          "translation_file_id": 785076,
+          "translation_name": "Embers XD - Turkish Translation",
+          "translation_file_name": "Embers XD - Turkish Translation 187186 3.2.6 2026-08-03T18-26Z miUDjFdtp.7z",
+          "translation_version": "3.2.6",
+          "uploaded_timestamp": 1785781619,
+          "expected_size": null,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "Embers XD - Patch - Capital Windhelm Expansion.esp"
           ],
           "evidence": [
-            "conversion_output_target_match"
+            "archive_inspection_target_match",
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/152055?tab=files&file_id=651671",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 9
         },
@@ -12280,26 +12284,26 @@
       "selection": {
         "status": "APPROVED",
         "confidence": "VERIFIED_CURATED",
-        "translation_name": "Embers XD - Turkish Translation - GUNCEL",
+        "translation_name": "Embers XD - Turkish Translation",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST",
-          "MTT"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download",
           "translation_language_match",
           "base_mod_id_exact",
-          "base_file_id_missing",
-          "version_mismatch",
+          "same_major_minor",
           "plugin_name_match",
+          "plugin_content_exact_target_verified",
           "linked_translation_file_match",
-          "archive_filename_hint_match"
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
         "warnings": [
-          "translation file metadata recovered by targeted repair",
-          "translation version '2.8.9' does not match installed version '3.2.0.0'",
-          "translation version '2.8.9' appears older than installed version '3.2.0.0'"
+          "Selected Negatrm Embers XD 3.2.6 for installed Embers XD 3.2.0; same translation targets and archive coverage were verified."
         ]
       },
       "install": {
@@ -12334,26 +12338,32 @@
           "conversion_order": 385
         },
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:152055:651671",
-          "source": "MTT",
+          "artifact_id": "nexusmods:skyrimspecialedition:187186:785076",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 152055,
-          "translation_file_id": 651671,
-          "translation_name": "Embers XD - Turkish (3.2.2)",
-          "translation_file_name": "Embers XD - Turkish Translation-152055-3-1-7-1753983621.zip",
-          "translation_version": "3.1.7",
-          "uploaded_timestamp": 1753983621,
-          "expected_size": 306308,
+          "translation_nexus_mod_id": 187186,
+          "translation_file_id": 785076,
+          "translation_name": "Embers XD - Turkish Translation",
+          "translation_file_name": "Embers XD - Turkish Translation 187186 3.2.6 2026-08-03T18-26Z miUDjFdtp.7z",
+          "translation_version": "3.2.6",
+          "uploaded_timestamp": 1785781619,
+          "expected_size": null,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "Embers XD - Patch - JKs Dragonsreach.esp"
           ],
           "evidence": [
-            "conversion_output_target_match"
+            "archive_inspection_target_match",
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/152055?tab=files&file_id=651671",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 9
         }
@@ -12376,26 +12386,26 @@
       "selection": {
         "status": "APPROVED",
         "confidence": "VERIFIED_CURATED",
-        "translation_name": "Embers XD - Turkish Translation - GUNCEL",
+        "translation_name": "Embers XD - Turkish Translation",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST",
-          "MTT"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download",
           "translation_language_match",
           "base_mod_id_exact",
-          "base_file_id_missing",
-          "version_mismatch",
+          "same_major_minor",
           "plugin_name_match",
+          "plugin_content_exact_target_verified",
           "linked_translation_file_match",
-          "archive_filename_hint_match"
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
         "warnings": [
-          "translation file metadata recovered by targeted repair",
-          "translation version '2.8.9' does not match installed version '3.2.0.0'",
-          "translation version '2.8.9' appears older than installed version '3.2.0.0'"
+          "Selected Negatrm Embers XD 3.2.6 for installed Embers XD 3.2.0; same translation targets and archive coverage were verified."
         ]
       },
       "install": {
@@ -12429,26 +12439,32 @@
           "conversion_order": 385
         },
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:152055:651671",
-          "source": "MTT",
+          "artifact_id": "nexusmods:skyrimspecialedition:187186:785076",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 152055,
-          "translation_file_id": 651671,
-          "translation_name": "Embers XD - Turkish (3.2.2)",
-          "translation_file_name": "Embers XD - Turkish Translation-152055-3-1-7-1753983621.zip",
-          "translation_version": "3.1.7",
-          "uploaded_timestamp": 1753983621,
-          "expected_size": 306308,
+          "translation_nexus_mod_id": 187186,
+          "translation_file_id": 785076,
+          "translation_name": "Embers XD - Turkish Translation",
+          "translation_file_name": "Embers XD - Turkish Translation 187186 3.2.6 2026-08-03T18-26Z miUDjFdtp.7z",
+          "translation_version": "3.2.6",
+          "uploaded_timestamp": 1785781619,
+          "expected_size": null,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "Embers XD - Patch - Lux Via.esp"
           ],
           "evidence": [
-            "conversion_output_target_match"
+            "archive_inspection_target_match",
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/152055?tab=files&file_id=651671",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 9
         }
@@ -12471,26 +12487,26 @@
       "selection": {
         "status": "APPROVED",
         "confidence": "VERIFIED_CURATED",
-        "translation_name": "Embers XD - Turkish Translation - GUNCEL",
+        "translation_name": "Embers XD - Turkish Translation",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST",
-          "MTT"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download",
           "translation_language_match",
           "base_mod_id_exact",
-          "base_file_id_missing",
-          "version_mismatch",
+          "same_major_minor",
           "plugin_name_match",
+          "plugin_content_exact_target_verified",
           "linked_translation_file_match",
-          "archive_filename_hint_match"
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
         "warnings": [
-          "translation file metadata recovered by targeted repair",
-          "translation version '2.8.9' does not match installed version '3.2.0.0'",
-          "translation version '2.8.9' appears older than installed version '3.2.0.0'"
+          "Selected Negatrm Embers XD 3.2.6 for installed Embers XD 3.2.0; same translation targets and archive coverage were verified."
         ]
       },
       "install": {
@@ -12525,26 +12541,32 @@
           "conversion_order": 385
         },
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:152055:651671",
-          "source": "MTT",
+          "artifact_id": "nexusmods:skyrimspecialedition:187186:785076",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 152055,
-          "translation_file_id": 651671,
-          "translation_name": "Embers XD - Turkish (3.2.2)",
-          "translation_file_name": "Embers XD - Turkish Translation-152055-3-1-7-1753983621.zip",
-          "translation_version": "3.1.7",
-          "uploaded_timestamp": 1753983621,
-          "expected_size": 306308,
+          "translation_nexus_mod_id": 187186,
+          "translation_file_id": 785076,
+          "translation_name": "Embers XD - Turkish Translation",
+          "translation_file_name": "Embers XD - Turkish Translation 187186 3.2.6 2026-08-03T18-26Z miUDjFdtp.7z",
+          "translation_version": "3.2.6",
+          "uploaded_timestamp": 1785781619,
+          "expected_size": null,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "Embers XD - Patch - TNF Skyrim House Remodel.esp"
           ],
           "evidence": [
-            "conversion_output_target_match"
+            "archive_inspection_target_match",
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/152055?tab=files&file_id=651671",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 9
         }
@@ -12570,27 +12592,39 @@
         "translation_name": "Embers XD - Turkish Translation",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download"
+          "translation_language_match",
+          "base_mod_id_exact",
+          "same_major_minor",
+          "plugin_name_match",
+          "plugin_content_exact_target_verified",
+          "linked_translation_file_match",
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
-        "warnings": []
+        "warnings": [
+          "Selected Negatrm Embers XD 3.2.6 for installed Embers XD 3.2.0; same translation targets and archive coverage were verified."
+        ]
       },
       "install": {
         "mode": "DSD_CONVERT"
       },
       "artifacts": [
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:152055:715002",
-          "source": "CURATED_DOWNLOAD_LIST",
+          "artifact_id": "nexusmods:skyrimspecialedition:187186:785076",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 152055,
-          "translation_file_id": 715002,
+          "translation_nexus_mod_id": 187186,
+          "translation_file_id": 785076,
           "translation_name": "Embers XD - Turkish Translation",
-          "translation_file_name": "Embers XD - Turkish Translation-152055-3-2-0-1769696361.zip",
-          "translation_version": "3.2.0",
-          "uploaded_timestamp": 1769696361,
+          "translation_file_name": "Embers XD - Turkish Translation 187186 3.2.6 2026-08-03T18-26Z miUDjFdtp.7z",
+          "translation_version": "3.2.6",
+          "uploaded_timestamp": 1785781619,
           "expected_size": null,
           "expected_sha256": null,
           "required": true,
@@ -12598,34 +12632,16 @@
             "Embers XD.esm"
           ],
           "evidence": [
-            "curated_selected_download"
-          ],
-          "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/152055?tab=files&file_id=715002"
-        },
-        {
-          "artifact_id": "nexusmods:skyrimspecialedition:152055:651671",
-          "source": "MTT",
-          "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 152055,
-          "translation_file_id": 651671,
-          "translation_name": "Embers XD - Turkish (3.2.2)",
-          "translation_file_name": "Embers XD - Turkish Translation-152055-3-1-7-1753983621.zip",
-          "translation_version": "3.1.7",
-          "uploaded_timestamp": 1753983621,
-          "expected_size": 306308,
-          "expected_sha256": null,
-          "required": true,
-          "provides": [
-            "Embers XD.esm"
-          ],
-          "evidence": [
-            "conversion_output_target_match",
             "archive_inspection_target_match",
-            "candidate_archive_target_match"
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/152055?tab=files&file_id=651671",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 9
         }
@@ -12651,27 +12667,39 @@
         "translation_name": "Embers XD - Turkish Translation",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download"
+          "translation_language_match",
+          "base_mod_id_exact",
+          "same_major_minor",
+          "plugin_name_match",
+          "plugin_content_exact_target_verified",
+          "linked_translation_file_match",
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
-        "warnings": []
+        "warnings": [
+          "Selected Negatrm Embers XD 3.2.6 for installed Embers XD 3.2.0; same translation targets and archive coverage were verified."
+        ]
       },
       "install": {
         "mode": "DSD_CONVERT"
       },
       "artifacts": [
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:152055:715002",
-          "source": "CURATED_DOWNLOAD_LIST",
+          "artifact_id": "nexusmods:skyrimspecialedition:187186:785076",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 152055,
-          "translation_file_id": 715002,
+          "translation_nexus_mod_id": 187186,
+          "translation_file_id": 785076,
           "translation_name": "Embers XD - Turkish Translation",
-          "translation_file_name": "Embers XD - Turkish Translation-152055-3-2-0-1769696361.zip",
-          "translation_version": "3.2.0",
-          "uploaded_timestamp": 1769696361,
+          "translation_file_name": "Embers XD - Turkish Translation 187186 3.2.6 2026-08-03T18-26Z miUDjFdtp.7z",
+          "translation_version": "3.2.6",
+          "uploaded_timestamp": 1785781619,
           "expected_size": null,
           "expected_sha256": null,
           "required": true,
@@ -12679,34 +12707,16 @@
             "Embers XD.esp"
           ],
           "evidence": [
-            "curated_selected_download"
-          ],
-          "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/152055?tab=files&file_id=715002"
-        },
-        {
-          "artifact_id": "nexusmods:skyrimspecialedition:152055:651671",
-          "source": "MTT",
-          "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 152055,
-          "translation_file_id": 651671,
-          "translation_name": "Embers XD - Turkish (3.2.2)",
-          "translation_file_name": "Embers XD - Turkish Translation-152055-3-1-7-1753983621.zip",
-          "translation_version": "3.1.7",
-          "uploaded_timestamp": 1753983621,
-          "expected_size": 306308,
-          "expected_sha256": null,
-          "required": true,
-          "provides": [
-            "Embers XD.esp"
-          ],
-          "evidence": [
-            "conversion_output_target_match",
             "archive_inspection_target_match",
-            "candidate_archive_target_match"
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/152055?tab=files&file_id=651671",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 9
         },
@@ -94768,54 +94778,57 @@
       "selection": {
         "status": "APPROVED",
         "confidence": "VERIFIED_CURATED",
-        "translation_name": "Daedric Shrines - Jyggalag Turkce",
+        "translation_name": "Negatrm'in Cevirileri",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST",
-          "MTT"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download",
           "translation_language_match",
           "base_mod_id_exact",
-          "base_file_id_exact",
-          "version_prefix_match",
+          "version_exact",
           "plugin_name_match",
+          "plugin_content_exact_target_verified",
           "linked_translation_file_match",
-          "archive_filename_hint_match"
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
-        "warnings": [
-          "translation file is not older than base mod update timestamp"
-        ]
+        "warnings": []
       },
       "install": {
         "mode": "DSD_CONVERT"
       },
       "artifacts": [
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:156726:654958",
+          "artifact_id": "nexusmods:skyrimspecialedition:33900:731463",
           "source": "MTT",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 156726,
-          "translation_file_id": 654958,
-          "translation_name": "Daedric Shrines - Jyggalag Turkce",
-          "translation_file_name": "Daedric Shrines - Jyggalag Turkce-156726-1-0-1754991706.7z",
+          "translation_nexus_mod_id": 33900,
+          "translation_file_id": 731463,
+          "translation_name": "Negatrm'in Cevirileri",
+          "translation_file_name": "Mandragorasprouts' Sculptures - Turkish Translatio-33900-1-0-1773535157.7z",
           "translation_version": "1.0",
-          "uploaded_timestamp": 1754991706,
-          "expected_size": 24553,
+          "uploaded_timestamp": 1773535157,
+          "expected_size": 590956,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "man_JyggalagShrine.esp"
           ],
           "evidence": [
-            "curated_selected_download",
-            "conversion_output_target_match",
             "archive_inspection_target_match",
-            "candidate_archive_target_match"
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/156726?tab=files&file_id=654958",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=731463",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=731463",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 433
         }
@@ -94838,13 +94851,23 @@
       "selection": {
         "status": "APPROVED",
         "confidence": "VERIFIED_CURATED",
-        "translation_name": "Statue of Sithis Turkce Yama",
+        "translation_name": "Negatrm'in Cevirileri",
         "score": 100,
         "provenance": [
-          "CURATED_DOWNLOAD_LIST"
+          "MTT",
+          "USER_CURATED",
+          "NEXUS_API_VERIFIED"
         ],
         "reasons": [
-          "curated_selected_download"
+          "translation_language_match",
+          "base_mod_id_exact",
+          "version_exact",
+          "plugin_name_match",
+          "plugin_content_exact_target_verified",
+          "linked_translation_file_match",
+          "archive_filename_hint_match",
+          "user_selected_preferred_translation_author",
+          "nexus_api_file_metadata_verified"
         ],
         "warnings": []
       },
@@ -94853,26 +94876,34 @@
       },
       "artifacts": [
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:156731:654969",
-          "source": "CURATED_DOWNLOAD_LIST",
+          "artifact_id": "nexusmods:skyrimspecialedition:33900:731463",
+          "source": "MTT",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 156731,
-          "translation_file_id": 654969,
-          "translation_name": "Statue of Sithis Turkce Yama",
-          "translation_file_name": "Statue of Sithis Turkce Yama-156731-1-0-1754994099.7z",
+          "translation_nexus_mod_id": 33900,
+          "translation_file_id": 731463,
+          "translation_name": "Negatrm'in Cevirileri",
+          "translation_file_name": "Mandragorasprouts' Sculptures - Turkish Translatio-33900-1-0-1773535157.7z",
           "translation_version": "1.0",
-          "uploaded_timestamp": 1754994099,
-          "expected_size": null,
+          "uploaded_timestamp": 1773535157,
+          "expected_size": 590956,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "man_sithis.esp"
           ],
           "evidence": [
-            "curated_selected_download"
+            "archive_inspection_target_match",
+            "candidate_archive_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/156731?tab=files&file_id=654969"
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=731463",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=731463",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
+          "decision_status": "APPROVED",
+          "conversion_order": 433
         },
         {
           "artifact_id": "nexusmods:skyrimspecialedition:77855:327449",
@@ -100629,32 +100660,6 @@
           "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/155630?tab=files&file_id=757823",
           "decision_status": "NEEDS_REVIEW",
           "conversion_order": 476
-        },
-        {
-          "artifact_id": "nexusmods:skyrimspecialedition:145947:610420",
-          "source": "MTT",
-          "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 145947,
-          "translation_file_id": 610420,
-          "translation_name": "Orc Exiles - Bilegulch Stronghold - Turkish",
-          "translation_file_name": "Orc Exiles - Bilegulch Stronghold - Turkish-145947-1-4-1743080899.zip",
-          "translation_version": "1.4",
-          "uploaded_timestamp": 1743080899,
-          "expected_size": 304216,
-          "expected_sha256": null,
-          "required": true,
-          "provides": [
-            "Orc Exiles - Bilegulch.esp"
-          ],
-          "evidence": [
-            "conversion_output_target_match",
-            "archive_inspection_target_match",
-            "candidate_archive_target_match"
-          ],
-          "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/145947?tab=files&file_id=610420",
-          "decision_status": "APPROVED",
-          "conversion_order": 478
         }
       ],
       "alternatives": []
@@ -135637,26 +135642,31 @@
           "conversion_order": 617
         },
         {
-          "artifact_id": "nexusmods:skyrimspecialedition:152055:651671",
-          "source": "MTT",
+          "artifact_id": "nexusmods:skyrimspecialedition:187186:785076",
+          "source": "ManualCuratedOverride",
           "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 152055,
-          "translation_file_id": 651671,
-          "translation_name": "Embers XD - Turkish (3.2.2)",
-          "translation_file_name": "Embers XD - Turkish Translation-152055-3-1-7-1753983621.zip",
-          "translation_version": "3.1.7",
-          "uploaded_timestamp": 1753983621,
-          "expected_size": 306308,
+          "translation_nexus_mod_id": 187186,
+          "translation_file_id": 785076,
+          "translation_name": "Embers XD - Turkish Translation",
+          "translation_file_name": "Embers XD - Turkish Translation 187186 3.2.6 2026-08-03T18-26Z miUDjFdtp.7z",
+          "translation_version": "3.2.6",
+          "uploaded_timestamp": 1785781619,
+          "expected_size": null,
           "expected_sha256": null,
           "required": true,
           "provides": [
             "translation_memory_alias"
           ],
           "evidence": [
-            "conversion_output_target_match"
+            "conversion_output_target_match",
+            "user_curated_negatrm_source",
+            "nexus_api_file_metadata_verified"
           ],
           "install_mode": "NATIVE_INSTALL",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/152055?tab=files&file_id=651671",
+          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "download_url": "https://www.nexusmods.com/skyrimspecialedition/mods/187186?tab=files&file_id=785076",
+          "translation_author": "Negatrm",
+          "translation_uploader": "Negatrm",
           "decision_status": "APPROVED",
           "conversion_order": 9
         },
@@ -140615,5 +140625,5 @@
       "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/158770?tab=files&file_id=778351"
     }
   ],
-  "updated_at": "2026-07-19T12:41:52.269297+00:00"
+  "updated_at": "2026-08-08T21:35:49Z"
 }
