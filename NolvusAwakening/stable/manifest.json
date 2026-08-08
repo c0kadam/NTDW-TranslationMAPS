@@ -2,7 +2,7 @@
   "schema_version": "mtt-wizard-manifest.v2",
   "manifest_id": "nolvus-awakening-tr-stable",
   "created_at": "2026-08-03T16:13:43.871239+00:00",
-  "updated_at": "2026-08-08T21:35:49Z",
+  "updated_at": "2026-08-08T22:45:38Z",
   "release_state": "DRAFT",
   "tool": {
     "name": "modlist-translate-tool",
@@ -4527,31 +4527,6 @@
           "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=595147",
           "decision_status": "APPROVED",
           "conversion_order": 208
-        },
-        {
-          "artifact_id": "nexusmods:skyrimspecialedition:33900:595146",
-          "source": "MTT",
-          "game_domain": "skyrimspecialedition",
-          "translation_nexus_mod_id": 33900,
-          "translation_file_id": 595146,
-          "translation_name": "Negatrm'in Cevirileri",
-          "translation_file_name": "74- Additional Hearthfire Dolls - Separate - Turk-33900-3-0-1739649774.7z",
-          "translation_version": "3.0",
-          "uploaded_timestamp": 1739649774,
-          "expected_size": 38377,
-          "expected_sha256": null,
-          "required": true,
-          "provides": [
-            "AdditionalHearthfireDolls.esp"
-          ],
-          "evidence": [
-            "conversion_output_target_match",
-            "candidate_archive_target_match"
-          ],
-          "install_mode": "DSD_CONVERT",
-          "source_url": "https://www.nexusmods.com/skyrimspecialedition/mods/33900?tab=files&file_id=595146",
-          "decision_status": "APPROVED",
-          "conversion_order": 209
         }
       ]
     },
